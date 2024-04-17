@@ -1,0 +1,92 @@
+[
+ {
+  "directory": "/home/sgj/codes/fy/my_toy_compiler",
+  "arguments": [
+   "clang++",
+   "-gfull",
+   "-c",
+   "-I/usr/include",
+   "-D_GNU_SOURCE",
+   "-D__STDC_CONSTANT_MACROS",
+   "-D__STDC_FORMAT_MACROS",
+   "-D__STDC_LIMIT_MACROS",
+   "-std=c++20",
+   "-o",
+   "parser.o",
+   "parser.cpp"
+  ],
+  "file": "parser.cpp"
+ },
+ {
+  "directory": "/home/sgj/codes/fy/my_toy_compiler",
+  "arguments": [
+   "clang++",
+   "-gfull",
+   "-c",
+   "-I/usr/include",
+   "-D_GNU_SOURCE",
+   "-D__STDC_CONSTANT_MACROS",
+   "-D__STDC_FORMAT_MACROS",
+   "-D__STDC_LIMIT_MACROS",
+   "-std=c++20",
+   "-o",
+   "codegen.o",
+   "codegen.cpp"
+  ],
+  "file": "codegen.cpp"
+ },
+ {
+  "directory": "/home/sgj/codes/fy/my_toy_compiler",
+  "arguments": [
+   "clang++",
+   "-gfull",
+   "-c",
+   "-I/usr/include",
+   "-D_GNU_SOURCE",
+   "-D__STDC_CONSTANT_MACROS",
+   "-D__STDC_FORMAT_MACROS",
+   "-D__STDC_LIMIT_MACROS",
+   "-std=c++20",
+   "-o",
+   "main.o",
+   "main.cpp"
+  ],
+  "file": "main.cpp"
+ },
+ {
+  "directory": "/home/sgj/codes/fy/my_toy_compiler",
+  "arguments": [
+   "clang++",
+   "-gfull",
+   "-c",
+   "-I/usr/include",
+   "-D_GNU_SOURCE",
+   "-D__STDC_CONSTANT_MACROS",
+   "-D__STDC_FORMAT_MACROS",
+   "-D__STDC_LIMIT_MACROS",
+   "-std=c++20",
+   "-o",
+   "corefn.o",
+   "corefn.cpp"
+  ],
+  "file": "corefn.cpp"
+ },
+ {
+  "directory": "/home/sgj/codes/fy/my_toy_compiler",
+  "arguments": [
+   "clang++",
+   "-gfull",
+   "-c",
+   "-I/usr/include",
+   "-D_GNU_SOURCE",
+   "-D__STDC_CONSTANT_MACROS",
+   "-D__STDC_FORMAT_MACROS",
+   "-D__STDC_LIMIT_MACROS",
+   "-std=c++20",
+   "-o",
+   "native.o",
+   "native.cpp"
+  ],
+  "file": "native.cpp"
+ }
+]
